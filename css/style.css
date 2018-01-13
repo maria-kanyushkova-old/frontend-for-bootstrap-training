@@ -4625,3 +4625,11 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.container {
+  height: auto; }
+
+div[class^="col-"] {
+  background-color: rgba(4, 0, 255, 0.05);
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.09); }
